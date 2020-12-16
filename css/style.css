@@ -1,0 +1,274 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	padding: 20px 0;
+	background-color: #121B2A}
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+	border: 1px solid white;
+}
+.logo{
+	width: 18%;
+	float: left;
+}
+.logo img{width:100%;
+
+}
+.menu{margin-top: 80px;
+	width: 70%;
+	float: right;
+}
+.menu ul{
+	float: right;
+	overflow: hidden;
+}
+.menu ul li{float: left;
+	list-style: none;}
+
+.menu ul li a{
+	font-family: sans-serif;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight:400;
+	padding: 0 20px;
+	display: inline-block;
+}
+.menu ul li a:hover{
+	color: #0177BD;
+}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+/*header end*/
+/*section start*/
+.banner{background-image: url(../images/person.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 800px;
+
+}
+.b_content{
+	margin-top: 300px;
+	margin-bottom: 70px;
+	width: 50%;
+}
+.b_content h1{
+	margin: 0 0;
+	font-family: sans-serif;
+	font-size: 38px;
+	font-weight:400 ;
+	color: white;
+	text-transform: capitalize;
+}
+.b_content h2{
+	margin: 0 0;
+	font-family: sans-serif;
+	font-size: 42px;
+	font-weight: 700;
+	color: #0177BD;
+	text-transform: capitalize;
+}
+.b_content p{
+	margin: 15px 0px 30px;
+	font-family: sans-serif;
+	font-size: 19px;
+	font-weight: 400;
+	color: white;
+	line-height: 30px;
+}
+.b_content button{
+	width: 200px;
+	height: 60px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color:black;
+	text-transform: uppercase;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+.b_content button:hover{
+	background-color: #0177BD;
+	color: white;
+}
+/*section end*/
+/*service start*/
+.service{
+	background-color: #121B2C;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+.single{
+	width: 29.6%;
+	float: left;
+	padding: 50px 1.8%;
+}
+.single:last-child{
+	border-right:
+}
+.top{
+	overflow: hidden; 
+}
+.t_img {width: 28%;
+float: left; }
+.t_img img{
+	width: 100%;
+}
+.t_text{
+	margin-top: 16px;
+	width: 60%;
+    float: left;}
+.t_text h2{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	color:white;
+}
+.t_text h3{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 28px;
+	font-weight: 400;
+	color:#0078BD;
+
+}
+.bottom{}
+.bottom p{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color:white;
+	line-height: 25px;
+}
+/*srvice end*/
+/*contact start*/
+.contact{background-color: #0C1019;
+	padding-top: 50px;
+	padding-bottom: 10px;}
+.single1{
+	width: 30%;
+	float: left;
+	padding: 50px 1.8%;
+}
+.top1{margin-top: 60px: 
+	width: 60%;
+}
+.t_text1{
+ }
+.t_text1 h2{margin-bottom: 20px;
+	font-family: sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	color:white;
+	line-height: 20px;
+	text-transform: capitalize;
+}
+.t_text1 p{
+	margin-bottom: 20px;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color:white;
+	line-height: 25px;}
+.bottom_1 p{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color:white;
+	line-height: 25px;}
+	
+.single2{
+	overflow: hidden;
+	width: 28.1%;
+	float: left;
+	padding: 50px 1.8%;
+}
+.top2{ 
+	width: 33%;
+	float: left;
+}
+.t_img1{
+	width: 100%;
+	float: left;
+}
+.t_img1 img{width: 100%;}
+.bottom2{
+	margin-left: 20px;
+	margin-right: 30px;
+	width:50%;
+	float: right;
+}
+.bottom2 h2{
+	font-family: sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	color:white;
+	text-transform: capitalize;
+	float: right;
+
+}
+.t_img2{width: 100%;}
+.t_img2 img{
+	margin-top: 10px;
+	width: 100%;}
+/*contact end*/
+/*footer start*/
+footer{
+	background-color: #121B2C;
+}
+.menu2{
+	width: 59%;
+	display: inline-block;
+}
+.menu2 ul{
+	margin: 20px 0 0 20px;
+	float: left;
+	display:
+}
+.menu2 ul li{
+	font-family: sans-serif;
+	font-size: 19px ;
+	font-weight: 400;
+	color: white;
+	text-decoration: none;
+	text-transform: capitalize;
+	float: left;
+	padding: 0 10px;
+	list-style: none;
+	cursor: pointer;
+	border-right: 1px solid white;
+}
+.menu2 p{
+	margin: 20px 0 0 30px;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color:white;
+	float: left;
+}
+.logo2{
+	width: 40%;
+	float: right;
+}
+.b_img{
+	width: 100%;
+	float: left;
+ }
+.b_img img{
+	width: 100%;
+}
+.menu2 ul li:hover{
+	color: #0177BD;
+/*footer end*/
